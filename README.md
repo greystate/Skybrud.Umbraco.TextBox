@@ -1,15 +1,15 @@
 # Skybrud.Umbraco.TextBox
 
-**Skybrud.Umbraco.TextBox** is a package that adds new textbox and textarea properties for Umbraco 9. While having similar functionality to the build in property editors, this package adds a few extra features:
+**Skybrud.Umbraco.TextBox** is a package that adds new textbox and textarea properties for Umbraco 9. While having similar functionality to the built in property editors, this package adds a few extra features:
 
 - **More visible character limit**  
-  The default property editors in Umbraco only shows the limit when it has been reached, whereas the property editors in this package show the limit right away, kaing it more visual to the editor that there is a limit.
+  The default property editors in Umbraco only shows the limit when it has been reached, whereas the property editors in this package show the limit right away, making it more visual to the editor that there is a limit.
   
 - **Enforced character limit**  
   Umbraco will only show the limit when it has been reached or exceeded, but not actually enforce the character limit. Via the config option on the data type, the property editors in this package can be configured to prevent the user from exceeding the character limit.
   
 - **Placeholder text**  
-  Both the textbox and textarea property editors allows setting a placeholder text that will be visible to the user when editing the properties in the backoffice.
+  Both the textbox and textarea property editors allow setting a placeholder text that will be visible to the user when editing the properties in the backoffice.
 
 - **Fallback text**  
   An optional fallback text may be set on the data type to be used instead when the property is left blank. The underlying property value converter will make sure the fallback value is returned when this is the case.
